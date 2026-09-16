@@ -1,0 +1,7 @@
+.about-section .section-grid h2{margin-bottom:28px}
+.about-copy{display:grid;gap:14px;width:100%}
+.about-copy .large-copy{max-width:none;width:100%;font-size:18px;line-height:1.65;margin:0;color:#b8c8c2}
+.about-copy .large-copy:first-child{font-size:19px;color:#e4eee9;line-height:1.7}
+.about-section .facts{gap:24px 46px;flex-wrap:wrap;margin-top:34px}
+.about-section .facts strong{line-height:1.5}
+@media(max-width:640px){.about-copy .large-copy,.about-copy .large-copy:first-child{font-size:17px;line-height:1.65}.about-section .facts{margin-top:30px}}

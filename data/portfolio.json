@@ -1,0 +1,126 @@
+{
+  "name": "Gabriel Delgado",
+  "role": "Desarrollador de software",
+  "roleEn": "Software developer",
+  "secondaryRole": "Soporte IT",
+  "secondaryRoleEn": "IT support",
+  "intro": "Desarrollo aplicaciones web, APIs e integraciones que resuelven problemas reales. También aporto experiencia en soporte y automatización de procesos.",
+  "introEn": "I build web applications, APIs and integrations that solve real problems. I also bring experience in IT support and process automation.",
+  "about": "Soy desarrollador de software con dos años de experiencia en frontend, backend e integración de sistemas. Actualmente trabajo como Frontend Developer con React, JavaScript y TypeScript, y estudio Desarrollo de Software en ISTEA.",
+  "aboutEn": "I am a software developer with two years of experience in frontend and backend development and system integration. I currently work as a Frontend Developer with React, JavaScript and TypeScript, and study Software Development at ISTEA.",
+  "aboutParagraphs": [
+    "Soy desarrollador de software con dos años de experiencia en frontend, backend e integración de sistemas. Me gusta crear soluciones que simplifiquen procesos y resulten útiles para quienes las usan.",
+    "Actualmente trabajo como Frontend Developer con React, JavaScript y TypeScript. Desarrollo formularios dinámicos y funcionalidades CRUD, con una arquitectura basada en componentes reutilizables y código fácil de mantener.",
+    "También he trabajado con APIs REST, Java y Spring Boot, bases de datos y automatizaciones con n8n y Botpress. Mi experiencia en soporte y atención al cliente me ayuda a entender los problemas desde la perspectiva de las personas. Estudio la Tecnicatura Superior en Desarrollo de Software en ISTEA y disfruto aprender y colaborar en equipo."
+  ],
+  "aboutParagraphsEn": [
+    "I am a software developer with two years of experience in frontend and backend development and system integration. I enjoy building solutions that simplify processes and serve the people who use them.",
+    "I currently work as a Frontend Developer using React, JavaScript and TypeScript. I build dynamic forms and CRUD features with reusable components and maintainable code.",
+    "I have also worked with REST APIs, Java and Spring Boot, databases, and automation with n8n and Botpress. My support and customer service experience helps me see problems from the user's perspective. I study Software Development at ISTEA and enjoy learning and collaborating with teams."
+  ],
+  "location": "Mendoza, Argentina",
+  "email": "gabrieldelgado183@gmail.com",
+  "github": "https://github.com/Gabriieelo",
+  "linkedin": "https://www.linkedin.com/in/gabi-delgado/",
+  "skills": [
+    { "name": "React", "description": "Interfaces web y componentes reutilizables.", "descriptionEn": "Web interfaces and reusable components." },
+    { "name": "JavaScript", "description": "Lógica de frontend, backend e integración de datos.", "descriptionEn": "Frontend and backend logic, and data integration." },
+    { "name": "TypeScript", "description": "Tipado para aplicaciones frontend.", "descriptionEn": "Type safety for frontend applications." },
+    { "name": "HTML & CSS", "description": "Maquetación semántica y diseño adaptable.", "descriptionEn": "Semantic markup and responsive design." },
+    { "name": "Java & Spring", "description": "APIs REST, microservicios y persistencia con JPA/Hibernate.", "descriptionEn": "REST APIs, microservices and persistence with JPA/Hibernate." },
+    { "name": "SQL", "description": "Trabajo con MySQL y SQL Server.", "descriptionEn": "Working with MySQL and SQL Server." },
+    { "name": "APIs REST", "description": "Integración frontend-backend, JSON y documentación con Swagger.", "descriptionEn": "Frontend-backend integration, JSON and Swagger documentation." },
+    { "name": "Automatización", "description": "Flujos y asistentes con n8n y Botpress.", "descriptionEn": "Workflows and assistants with n8n and Botpress." },
+    { "name": "Git & Docker", "description": "Control de versiones y herramientas de desarrollo.", "descriptionEn": "Version control and development tools." },
+    { "name": "Soporte IT", "description": "Resolución de incidencias básicas, Windows, Office y sistemas CRM.", "descriptionEn": "Basic troubleshooting, Windows, Office and CRM systems." }
+  ],
+  "experience": [
+    {
+      "company": "Follow",
+      "period": "2025 — 2026",
+      "role": "Software Developer",
+      "roleEn": "Software Developer",
+      "highlights": [
+        "Desarrollé soluciones backend con Java 17 y Spring Boot, utilizando microservicios, JPA/Hibernate y MySQL, e interfaces frontend con React, JavaScript, HTML y CSS.",
+        "Integré herramientas digitales y CRM para organizar información, automatizar tareas comerciales y mejorar procesos internos.",
+        "Participé en análisis de métricas, investigación de tendencias tecnológicas y elaboración de reportes para apoyar decisiones del negocio.",
+        "Colaboré en flujos de captación que conectaban campañas de Meta Ads, WhatsApp y agendamiento de demos, trabajando en equipo con metodología Scrum."
+      ],
+      "highlightsEn": [
+        "Built backend solutions with Java 17 and Spring Boot using microservices, JPA/Hibernate and MySQL, alongside frontend interfaces with React, JavaScript, HTML and CSS.",
+        "Integrated digital tools and CRM systems to organize information, automate sales tasks and improve internal processes.",
+        "Contributed to metrics analysis, technology research and reports that supported business decisions.",
+        "Collaborated on lead generation flows connecting Meta Ads campaigns, WhatsApp and demo scheduling while working in a Scrum team."
+      ]
+    },
+    {
+      "company": "DAIA",
+      "period": "2024 — 2025",
+      "role": "Desarrollador de automatizaciones IA",
+      "roleEn": "AI Automation Developer",
+      "highlights": [
+        "Diseñé e implementé flujos de automatización y asistentes conversacionales con n8n y Botpress para optimizar la atención al cliente.",
+        "Integré sistemas mediante APIs REST y documenté las conexiones técnicas con Swagger.",
+        "Desarrollé componentes backend en JavaScript para mejorar flujos y procesos internos, colaborando de forma remota con metodología Scrum."
+      ],
+      "highlightsEn": [
+        "Designed and implemented automation workflows and conversational assistants with n8n and Botpress to improve customer service.",
+        "Integrated systems through REST APIs and documented technical connections with Swagger.",
+        "Developed JavaScript backend components to improve internal workflows and processes, collaborating remotely in a Scrum environment."
+      ]
+    },
+    {
+      "company": "Box Diario",
+      "period": "2024 — 2025",
+      "role": "SEO técnico",
+      "roleEn": "Technical SEO",
+      "highlights": [
+        "Optimicé WordPress y la estructura SEO del sitio para mejorar la organización y el posicionamiento del contenido.",
+        "Gestioné el proceso de publicación desde la investigación de palabras clave y metaetiquetas hasta la optimización de URL e imágenes.",
+        "Documenté procesos digitales y utilicé herramientas de IA para apoyar la producción y revisión de contenidos."
+      ],
+      "highlightsEn": [
+        "Optimized WordPress and the site's SEO structure to improve content organization and search visibility.",
+        "Managed the publishing process from keyword research and meta tags to URL and image optimization.",
+        "Documented digital processes and used AI tools to support content production and review."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Erbe Verdi",
+      "description": "Plataforma de reseñas de yerbas comercializadas en Argentina. Presenta un catálogo de productos cargados desde una base de datos y conecta el frontend desarrollado con React y JavaScript con los datos del backend.",
+      "descriptionEn": "A review platform for yerba mate brands sold in Argentina. It presents a product catalog loaded from a database and connects a React and JavaScript frontend with backend data.",
+      "url": "https://gabriieelo.github.io/Erbe-Verdi/",
+      "repository": "https://github.com/Gabriieelo/Erbe-Verdi",
+      "technologies": ["React", "JavaScript", "Base de datos"],
+      "technologiesEn": ["React", "JavaScript", "Database"],
+      "status": "completed"
+    },
+    {
+      "title": "Sistema de gestión para gimnasio",
+      "description": "Aplicación en desarrollo para un gimnasio real. Está pensada para que el personal registre clientes, inscripciones, cuotas mensuales y movimientos de caja, y consulte carnets digitales con datos personales, pagos y vencimientos.",
+      "descriptionEn": "An application in development for a real gym. It is designed to let staff register members, enrollments, monthly fees and cash transactions, and view digital membership cards with personal details, payments and expiration dates.",
+      "repository": "https://github.com/Gabriieelo/gym-management-system",
+      "technologies": ["React", "JavaScript", "Java", "Spring Boot", "MySQL", "Docker"],
+      "status": "in-progress"
+    },
+    {
+      "title": "Tienda Online",
+      "description": "Aplicación de comercio electrónico con frontend desarrollado en React y JavaScript. Se conecta a una API de backend documentada con Swagger para obtener y gestionar los datos de la tienda.",
+      "descriptionEn": "An online store with a frontend built in React and JavaScript. It connects to a backend API documented with Swagger to retrieve and manage store data.",
+      "repository": "https://github.com/Gabriieelo/TiendaOnline",
+      "technologies": ["React", "JavaScript", "API REST", "Swagger"],
+      "status": "completed"
+    },
+    {
+      "title": "Microservicios con Java",
+      "description": "Proyecto formativo en curso dentro de una capacitación de backend. Desarrollo y práctica de arquitectura de microservicios con Java, documentados en el repositorio a medida que avanza el curso.",
+      "descriptionEn": "An ongoing learning project for a backend development course. I am practicing microservices architecture with Java and documenting the work in the repository as the course progresses.",
+      "repository": "https://github.com/Gabriieelo/Microservices",
+      "technologies": ["Java", "Microservicios", "Backend"],
+      "technologiesEn": ["Java", "Microservices", "Backend"],
+      "status": "in-progress"
+    }
+  ]
+}

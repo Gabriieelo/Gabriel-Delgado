@@ -1,0 +1,6 @@
+.experience-row{padding:38px 0}
+.experience-row strong{margin-bottom:18px}
+.experience-highlights{list-style:none;padding:0;margin:0;display:grid;gap:12px;max-width:780px}
+.experience-highlights li{position:relative;padding-left:22px;color:#a8b8b6;font-size:15px;line-height:1.65}
+.experience-highlights li::before{content:'↗';position:absolute;left:0;top:0;color:#aaf4cb;font-size:15px}
+@media(max-width:640px){.experience-row{padding:30px 0}.experience-highlights{gap:11px}}
