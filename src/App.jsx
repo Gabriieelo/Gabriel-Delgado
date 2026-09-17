@@ -1,22 +1,15 @@
 import { useEffect, useState } from 'react'
+import portfolioData from '../data/portfolio.json'
 
 const translations = {
   es: { about: 'Sobre mí', stack: 'Stack', projects: 'Proyectos', contact: 'Contacto', hello: 'Hola, soy', hero: <>Software<br />Developer.<br /><em>Soporte IT.</em></>, projectsButton: 'Ver proyectos', know: 'Conocerme', scroll: 'DESPLAZA PARA EXPLORAR ↓', presentation: 'PRESENTACIÓN', aboutMe: <>Un poco sobre <em>mí.</em></>, focus: 'ENFOQUE', location: 'UBICACIÓN', technologies: 'TECNOLOGÍAS', tools: <>Herramientas con las que<br /><em>construyo.</em></>, works: 'TRABAJOS', selected: <>Proyectos <em>seleccionados.</em></>, coming: 'Próximamente, proyectos por aquí.', comingText: 'Estoy preparando una selección de trabajos para compartir el proceso y los resultados.', completed: 'Completado', inProgress: 'En desarrollo', viewProject: 'Ver proyecto', viewCode: 'Ver código', create: '¿Creamos algo juntos?', talk: 'Hablemos', email: 'Escribirme por email', copyEmail: 'Copiar email', copied: 'Email copiado', copyError: 'No se pudo copiar', github: 'Encontrarme en GitHub', linkedin: 'Conectar en LinkedIn', made: 'Hecho con React', top: 'Volver arriba ↑', software: 'DESARROLLO DE SOFTWARE', stackLabel: 'STACK' },
   en: { about: 'About', stack: 'Stack', projects: 'Projects', contact: 'Contact', hello: "Hi, I'm", hero: <>Software<br />Developer.<br /><em>IT Support.</em></>, projectsButton: 'View projects', know: 'About me', scroll: 'SCROLL TO EXPLORE ↓', presentation: 'INTRODUCTION', aboutMe: <>A little about <em>me.</em></>, focus: 'FOCUS', location: 'LOCATION', technologies: 'TECHNOLOGIES', tools: <>Tools I use to<br /><em>build.</em></>, works: 'WORK', selected: <>Selected <em>projects.</em></>, coming: 'Projects are coming soon.', comingText: 'I am preparing a selection of work to share the process and results.', completed: 'Completed', inProgress: 'In development', viewProject: 'View project', viewCode: 'View code', create: 'Shall we build something together?', talk: "Let's talk", email: 'Send me an email', copyEmail: 'Copy email', copied: 'Email copied', copyError: 'Could not copy', github: 'Find me on GitHub', linkedin: 'Connect on LinkedIn', made: 'Made with React', top: 'Back to top ↑', software: 'SOFTWARE DEVELOPMENT', stackLabel: 'STACK' },
 }
 
-const fallback = {
-  name: 'Gabriel Delgado', role: 'Desarrollador de software', roleEn: 'Software developer', secondaryRole: 'Soporte IT', secondaryRoleEn: 'IT support',
-  intro: 'Construyo experiencias web claras, rápidas y cuidadas.',
-  about: 'Estoy construyendo mi espacio para compartir lo que sé, las tecnologías con las que trabajo y los proyectos que voy creando.',
-  location: 'Argentina', github: 'https://github.com/Gabriieelo', email: '', linkedin: '',
-  skills: [{ name: 'React', description: 'Interfaces con componentes reutilizables.' }], projects: [],
-}
-
 function Arrow({ diagonal = false }) { return <span aria-hidden="true">{diagonal ? '↗' : '→'}</span> }
 
 export default function App() {
-  const [portfolio, setPortfolio] = useState(fallback)
+  const portfolio = portfolioData
   const [language, setLanguage] = useState(() => localStorage.getItem('portfolio-language') === 'en' ? 'en' : 'es')
   const [copyStatus, setCopyStatus] = useState('idle')
   const t = translations[language]
@@ -30,12 +23,6 @@ export default function App() {
     }
     window.setTimeout(() => setCopyStatus('idle'), 3000)
   }
-  useEffect(() => {
-    fetch('/api/portfolio').then(response => {
-      if (!response.ok) throw new Error('No se pudo cargar el contenido')
-      return response.json()
-    }).then(setPortfolio).catch(() => {})
-  }, [])
   useEffect(() => { document.documentElement.lang = language }, [language])
 
   const { name, location, github, email, linkedin, skills = [], projects = [] } = portfolio

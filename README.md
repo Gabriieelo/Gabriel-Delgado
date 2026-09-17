@@ -1,6 +1,6 @@
 # Portfolio de Gabriel Delgado
 
-Portfolio bilingüe (español/inglés) construido con React y Vite. Los datos están en `data/portfolio.json` y se entregan mediante `GET /api/portfolio`.
+Portfolio bilingüe (español/inglés) construido con React y Vite. El contenido está en `data/portfolio.json` y se incluye en la compilación para que también funcione en alojamientos estáticos como Vercel.
 
 ## Verlo en desarrollo
 
@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Abre la dirección que muestra Vite, normalmente `http://localhost:5173`. Al editar `data/portfolio.json`, recarga la página para ver el contenido nuevo. El servidor de desarrollo sirve la API automáticamente.
+Abre la dirección que muestra Vite, normalmente `http://localhost:5173`. Al editar `data/portfolio.json`, recarga la página para ver el contenido nuevo.
 
 ## Producción local
 
