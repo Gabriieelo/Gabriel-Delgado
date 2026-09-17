@@ -50,19 +50,17 @@ export default function App() {
       <nav aria-label="Navegación principal">
         <a href="#sobre-mi">{t.about}</a><a href="#stack">{t.stack}</a><a href="#experiencia">{language === 'es' ? 'Experiencia' : 'Experience'}</a><a href="#proyectos">{t.projects}</a><a href="#contacto">{t.contact}</a>
       </nav>
-      <div className="header-actions"><button className="language-button" type="button" onClick={toggleLanguage} aria-label={language === 'es' ? 'Switch to English' : 'Cambiar a español'}>{language === 'es' ? 'EN' : 'ES'}</button><a className="header-link" href={github} target="_blank" rel="noreferrer">GitHub <Arrow diagonal /></a></div>
+      <div className="header-actions"><button className="language-button" type="button" onClick={toggleLanguage} aria-label={language === 'es' ? 'Switch to English' : 'Cambiar a español'}>{language === 'es' ? 'EN' : 'ES'}</button></div>
     </header>
 
     <main>
       <section className="hero container" id="inicio">
         <div className="hero-copy">
-          <div className="eyebrow"><span className="status-dot" /> PORTFOLIO / {t.software}</div>
           <p className="hello">{t.hello} {name}.</p>
           <h1>{t.hero}</h1>
           <p className="hero-description">{intro}</p>
         </div>
         <div className="hero-art" aria-hidden="true"><div className="art-grid" /><div className="art-core"><span>&lt;</span>GD<span>/&gt;</span></div></div>
-        <div className="hero-bottom"><span>01 / {t.presentation}</span><span>{t.scroll}</span></div>
       </section>
 
       <section className="section about-section" id="sobre-mi">
@@ -121,6 +119,6 @@ export default function App() {
 
       <section className="contact-section" id="contacto"><div className="container contact-inner"><div className="section-label"><span>05</span> / {t.contact.toUpperCase()}</div><p>{t.create}</p><h2>{t.talk}<span>.</span></h2><div className="contact-links">{email && <><a href={`mailto:${email}`} title={email}>{t.email} <Arrow diagonal /></a><button type="button" onClick={copyEmail} title={email} aria-live="polite">{copyStatus === 'copied' ? t.copied : copyStatus === 'error' ? t.copyError : t.copyEmail} <span aria-hidden="true">{copyStatus === 'copied' ? '✓' : '▣'}</span></button></>}<a href={github} target="_blank" rel="noreferrer">{t.github} <Arrow diagonal /></a>{linkedin && <a href={linkedin} target="_blank" rel="noreferrer">{t.linkedin} <Arrow diagonal /></a>}</div></div></section>
     </main>
-    <footer className="footer"><div className="container"><span>© {new Date().getFullYear()} {name}</span><span>{t.made} <span className="footer-star">✳</span></span><a href="#inicio">{t.top}</a></div></footer>
+    <footer className="footer"><div className="container"><a href="#inicio">{t.top}</a></div></footer>
   </>
 }
