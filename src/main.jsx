@@ -7,5 +7,6 @@ import './about.css'
 import './experience.css'
 import './contact.css'
 import './projects.css'
+import './responsive.css'
 
 createRoot(document.getElementById('root')).render(<React.StrictMode><App /></React.StrictMode>)
