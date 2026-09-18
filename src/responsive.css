@@ -13,6 +13,7 @@
 }
 
 .footer .container { justify-content: flex-end; }
+.project-card h3, .experience-row h3 { font-weight: 500; }
 
 @media (max-width: 1100px) {
   .site-header nav { gap: 16px; }
@@ -70,6 +71,7 @@
   .hero-bottom { gap: 12px; flex-wrap: wrap; }
   .section h2 { font-size: clamp(36px, 9vw, 46px); overflow-wrap: anywhere; }
   .skill-grid { grid-template-columns: minmax(0, 1fr); }
+  .skill-icon { margin-top: 32px; }
   .project-card { padding: 22px; }
   .project-card-top { flex-wrap: wrap; gap: 10px; margin-bottom: 32px; }
   .project-card h3 { font-size: 28px; overflow-wrap: anywhere; }

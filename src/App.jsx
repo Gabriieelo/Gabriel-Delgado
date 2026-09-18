@@ -67,7 +67,7 @@ export default function App() {
         </div>
       </section>
 
-      <section className="section stack-section" id="stack"><div className="container"><div className="section-head"><div className="section-label"><span>02</span> / {t.technologies}</div><h2>{t.tools}</h2></div><div className="skill-grid">{skills.map((skill, index) => <article className="skill-card" key={skill.name}><span className="card-index">0{index + 1} / {t.stackLabel}</span><div className="skill-icon">{skill.name.slice(0, 2).toUpperCase()}</div><h3>{skill.name}</h3><p>{language === 'en' ? skill.descriptionEn || skill.description : skill.description}</p></article>)}</div></div></section>
+      <section className="section stack-section" id="stack"><div className="container"><div className="section-head"><div className="section-label"><span>02</span> / {t.technologies}</div><h2>{t.tools}</h2></div><div className="skill-grid">{skills.map((skill, index) => <article className="skill-card" key={skill.name}><span className="card-index">0{index + 1} / {t.stackLabel}</span><div className="skill-icon">{skill.icon || skill.name.slice(0, 2).toUpperCase()}</div><h3>{skill.name}</h3><p>{language === 'en' ? skill.descriptionEn || skill.description : skill.description}</p></article>)}</div></div></section>
 
       <section className="section experience-section" id="experiencia">
         <div className="container">

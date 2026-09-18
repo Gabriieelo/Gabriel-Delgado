@@ -24,15 +24,15 @@
   "linkedin": "https://www.linkedin.com/in/gabi-delgado/",
   "skills": [
     { "name": "React", "description": "Interfaces web y componentes reutilizables.", "descriptionEn": "Web interfaces and reusable components." },
-    { "name": "JavaScript", "description": "Lógica de frontend, backend e integración de datos.", "descriptionEn": "Frontend and backend logic, and data integration." },
+    { "name": "JavaScript", "icon": "JS", "description": "Lógica de frontend, backend e integración de datos.", "descriptionEn": "Frontend and backend logic, and data integration." },
     { "name": "TypeScript", "description": "Tipado para aplicaciones frontend.", "descriptionEn": "Type safety for frontend applications." },
     { "name": "HTML & CSS", "description": "Maquetación semántica y diseño adaptable.", "descriptionEn": "Semantic markup and responsive design." },
     { "name": "Java & Spring", "description": "APIs REST, microservicios y persistencia con JPA/Hibernate.", "descriptionEn": "REST APIs, microservices and persistence with JPA/Hibernate." },
-    { "name": "SQL", "description": "Trabajo con MySQL y SQL Server.", "descriptionEn": "Working with MySQL and SQL Server." },
+    { "name": "SQL", "icon": "SQL", "description": "Trabajo con MySQL y SQL Server.", "descriptionEn": "Working with MySQL and SQL Server." },
     { "name": "APIs REST", "description": "Integración frontend-backend, JSON y documentación con Swagger.", "descriptionEn": "Frontend-backend integration, JSON and Swagger documentation." },
     { "name": "Automatización", "description": "Flujos y asistentes con n8n y Botpress.", "descriptionEn": "Workflows and assistants with n8n and Botpress." },
     { "name": "Git & Docker", "description": "Control de versiones y herramientas de desarrollo.", "descriptionEn": "Version control and development tools." },
-    { "name": "Soporte IT", "description": "Resolución de incidencias básicas, Windows, Office y sistemas CRM.", "descriptionEn": "Basic troubleshooting, Windows, Office and CRM systems." }
+    { "name": "Soporte IT", "icon": "ST", "description": "Resolución de incidencias básicas, Windows, Office y sistemas CRM.", "descriptionEn": "Basic troubleshooting, Windows, Office and CRM systems." }
   ],
   "experience": [
     {
