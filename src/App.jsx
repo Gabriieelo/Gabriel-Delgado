@@ -35,7 +35,7 @@ export default function App() {
     <header className="site-header">
       <a className="brand" href="#inicio" aria-label="Ir al inicio">GD<span>.</span></a>
       <nav aria-label="Navegación principal">
-        <a href="#sobre-mi">{t.about}</a><a href="#stack">{t.stack}</a><a href="#experiencia">{language === 'es' ? 'Experiencia' : 'Experience'}</a><a href="#proyectos">{t.projects}</a><a href="#contacto">{t.contact}</a>
+        <a href="#sobre-mi">{t.about}</a><a href="#experiencia">{language === 'es' ? 'Experiencia' : 'Experience'}</a><a href="#stack">{t.stack}</a><a href="#proyectos">{t.projects}</a><a href="#contacto">{t.contact}</a>
       </nav>
       <div className="header-actions"><button className="language-button" type="button" onClick={toggleLanguage} aria-label={language === 'es' ? 'Switch to English' : 'Cambiar a español'}>{language === 'es' ? 'EN' : 'ES'}</button></div>
     </header>
@@ -67,12 +67,10 @@ export default function App() {
         </div>
       </section>
 
-      <section className="section stack-section" id="stack"><div className="container"><div className="section-head"><div className="section-label"><span>02</span> / {t.technologies}</div><h2>{t.tools}</h2></div><div className="skill-grid">{skills.map((skill, index) => <article className="skill-card" key={skill.name}><span className="card-index">0{index + 1} / {t.stackLabel}</span><div className="skill-icon">{skill.icon || skill.name.slice(0, 2).toUpperCase()}</div><h3>{skill.name}</h3><p>{language === 'en' ? skill.descriptionEn || skill.description : skill.description}</p></article>)}</div></div></section>
-
       <section className="section experience-section" id="experiencia">
         <div className="container">
           <div className="section-head">
-            <div className="section-label"><span>03</span> / {language === 'es' ? 'EXPERIENCIA' : 'EXPERIENCE'}</div>
+            <div className="section-label"><span>02</span> / {language === 'es' ? 'EXPERIENCIA' : 'EXPERIENCE'}</div>
             <h2>{language === 'es' ? <>Experiencia <em>profesional.</em></> : <>Professional <em>experience.</em></>}</h2>
           </div>
           <div className="experience-list">
@@ -90,6 +88,8 @@ export default function App() {
           </div>
         </div>
       </section>
+
+      <section className="section stack-section" id="stack"><div className="container"><div className="section-head"><div className="section-label"><span>03</span> / {t.technologies}</div><h2>{t.tools}</h2></div><div className="skill-grid">{skills.map((skill, index) => <article className="skill-card" key={skill.name}><span className="card-index">0{index + 1} / {t.stackLabel}</span><div className="skill-icon">{skill.icon || skill.name.slice(0, 2).toUpperCase()}</div><h3>{skill.name}</h3><p>{language === 'en' ? skill.descriptionEn || skill.description : skill.description}</p></article>)}</div></div></section>
 
       <section className="section projects-section" id="proyectos">
         <div className="container">
